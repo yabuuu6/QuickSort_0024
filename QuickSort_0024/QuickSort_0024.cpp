@@ -109,4 +109,8 @@ int main()
 {
 	char ch;
 
-	
+	do {
+		input();
+		q_short(0, n - 1);
+		display();
+		
