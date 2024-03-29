@@ -113,4 +113,7 @@ int main()
 		input();
 		q_short(0, n - 1);
 		display();
-		
+		cout << "\n\nDo you want to continue? (y/n): ";
+		cin >> ch;
+		if (ch == 'n' || ch == 'N')
+			break;
